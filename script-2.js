@@ -14,6 +14,20 @@ const petsModule = (function () {
       sound: "meow",
       soundText: "Meow - type m",
     },
+    {
+      image: "https://www.evcilhayvanal.com/wp-content/uploads/2019/01/Beagle.jpg",
+      name: "ra",
+      type: "Beagle",
+      sound: "bark",
+      soundText: "Bark - type b",
+    },
+    {
+      image: "https://www.evcilhayvanal.com/wp-content/uploads/2021/01/ragdoll-kedisi.jpg",
+      name: "Sofia",
+      type: "Ragdoll",
+      sound: "meow",
+      soundText: "Meow - type m",
+    },
   ];
   const $tbodyEl = document.querySelector("tbody");
   const $buttons = document.querySelectorAll("button");
