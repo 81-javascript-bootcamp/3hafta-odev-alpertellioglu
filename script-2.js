@@ -79,6 +79,9 @@ const petsModule = (function () {
     const $rows = document.querySelectorAll("tr");
     for (let i = 0; i < $rows.length; i++) {
       $rows[i].addEventListener("click", function (event) {
+        $rows.forEach((e) => {
+          e.style.backgroundColor = "transparent";
+        });
         this.style.backgroundColor = "red";
         const imgSource = this.children[0].children[0].src;
         document.getElementsByClassName("main-image")[0].src = imgSource;
